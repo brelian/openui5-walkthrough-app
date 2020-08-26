@@ -1,0 +1,22 @@
+{
+	"name": "openui5-walkthrough-app",
+	"version": "0.2.0",
+	"description": "SAPUI5 walkthrough App",
+	"private": true,
+	"scripts": {
+		"start": "ui5 serve",
+		"lint": "eslint src",
+		"build": "ui5 build -a --clean-dest"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@ui5/cli": "^2.4.1",
+		"eslint": "^7.7.0",
+		"karma": "^4.4.1",
+		"karma-chrome-launcher": "^3.1.0",
+		"karma-coverage": "^2.0.3",
+		"karma-ui5": "^2.2.1",
+		"local-web-server": "^4.2.1",
+		"rimraf": "^3.0.2"
+	}
+}
